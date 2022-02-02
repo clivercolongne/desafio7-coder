@@ -1,0 +1,33 @@
+<%- include('head.ejs') %>
+    <!--Formulario de ingreso de libros-->
+    <div class="alert alert-primary" role="alert">
+        Formulario de ingreso de juegos
+    </div>
+
+    <div class="card">
+        <div class="card-header">
+            Ingrese a continuacion los datos del juego
+        </div>
+    
+        <%- include('form.ejs') %>    
+    </div>
+
+    <!--Listado de juegos-->
+    <div class="alert alert-warning" role="alert">
+        Listado de juegos cargados
+    </div>
+
+    <%- include('list.ejs') %>
+
+
+    <div class="alert alert-success" role="alert">
+        CHAT
+    </div>
+
+    <!--Chat-->
+
+    <div class="card-body">
+        <%- include('chat.ejs') %>
+    </div>
+    
+<%- include('foot.ejs') %>
