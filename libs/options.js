@@ -1,10 +1,10 @@
 const options = {
     client: 'mysql',
     connection: {
-        host: '127.0.0.1',
-        user: 'root',
+        host: 'localhost',
+        user: 'cliver',
         password: '25286637Cac',
-        database: 'test'
+        database: 'ecommerce'
     }
 }
 

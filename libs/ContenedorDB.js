@@ -1,6 +1,3 @@
-
-
-
 const error = {'error':'producto no encontrado'}
 
 class ContenedorDB {
@@ -14,6 +11,7 @@ class ContenedorDB {
     }
 
     async init(){
+        console.log("Db", this.db)
         const knex = require('knex')(this.db)
 
         await knex.from(this.table).select("*")
